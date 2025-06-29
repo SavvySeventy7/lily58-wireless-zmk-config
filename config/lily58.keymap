@@ -61,7 +61,7 @@
             display-name = "Raise";
             bindings = <
 &trans        &trans          &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans        &trans                                &kp C_VOL_DN  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_VOLUME_UP  &kp C_MUTE
-&kp TAB       &trans          &trans                &kp LC(LS(TAB))       &kp LC(TAB)   &trans                                &kp LC(Y)     &kp LC(V)       &kp LC(C)         &kp LC(X)   &kp LC(Z)        &kp PAUSE_BREAK
+&kp TAB       &kp LA(F4)      &kp LC(W)             &kp LC(LS(TAB))       &kp LC(TAB)   &trans                                &kp LC(Y)     &kp LC(V)       &kp LC(C)         &kp LC(X)   &kp LC(Z)        &kp PAUSE_BREAK
 &trans        &kp LEFT_SHIFT  &kp LCTRL             &kp LEFT_GUI          &kp LEFT_ALT  &trans                                &trans        &kp LEFT        &kp DOWN          &kp UP      &kp RIGHT        &kp PRINTSCREEN
 &kp LS(CAPS)  &trans          &trans                &trans                &trans        &trans  &kp SCROLLLOCK    &kp C_STOP  &kp INS       &kp HOME        &kp PAGE_DOWN     &kp PG_UP   &kp END          &kp BSLH
                                                     &trans                &trans        &trans  &trans            &trans      &trans        &trans          &trans
